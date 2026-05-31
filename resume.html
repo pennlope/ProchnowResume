@@ -1,0 +1,388 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Penelope's Resume</title>
+        <link rel="stylesheet" href="styleResume.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5e7a135010.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="header">
+        <div class = "align-headshot"><img id="headshot" src="assets/images/Prochnow_Penelope_20240109_J8H_3527~pp872.jpg" alt="Headshot"></div>
+        <div id="header-content">
+            <p id="name">Penelope Prochnow</p>
+            <a href="mailto:penny4pennies@gmail.com" target="_blank"><p id="email">penny4pennies@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i></p></a>
+            <p id="header-info">
+                <i class="fa fa-map-marker" aria-hidden="true"></i> Huntsville, Alabama  <br>
+                <i class="fa fa-phone" aria-hidden="true"></i> (228) 355-1629 
+                <div id = "social-icons">
+                    <a href="https://www.linkedin.com/in/penelope-prochnow/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="https://github.com/pennlope"><i class="fa fa-github" aria-hidden="true"></i></a> <br>
+                    <a href="https://orcid.org/0009-0003-6135-9359" target = "_blank">
+                        <img src="orcididlogo.svg" alt="orcidid" style = "width:20px; height:20px; vertical-align:middle;">
+                    </a>
+                </div>
+            </p>
+        </div>
+        <div class = "print-resume"><a href="assets/documents/PenelopeProchnowResume.pdf" target="_blank">Printable Resume View  </a><i class="fa fa-external-link" aria-hidden="true"></i></div>
+    </div>
+    
+     <div class="wraper">
+        <div class = "container">
+            <div class = "left-content p-30">
+                <div class = "nav">
+                    <a href="#" id="toggleMenu">
+                        <div class="toggle">
+                            <div class="pg-sub-title">Menu</div>
+                            <div class= "arrow" id="icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                        </div></a>
+                        <ul>
+                            <li><a href = "#Ho me" onclick="showSection('Home')">Home</a></li>
+                            <li><a href = "#Work Profile" onclick="showSection('WorkProfile')">Work Profile</a></li>
+                            <li><a href = "#Port folio" onclick="showSection('Portfolio')">Portfolio</a></li>
+                            <li><a href = "#Edu cation" onclick="showSection('Education')">Education</a></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="section1 p-30" id="Home">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Home</div>
+                        <div class="pg-title">Professional Summary</div>
+                    </div>
+                    <p>
+                        A dedicated Data Scientist passionate about delivering solutions capable of helping people and making the world a better place.
+                         Recent graduate holding a Bachelors of Science in Data Science, with a concentration in Statistical Modeling, and a minor in 
+                         Computer Science driven to continue learning and building skills in statistical methodologies and model development. Knowledgeable
+                          about computer programming languages and analytical strategies stemming from a variety of publication-focused research and high-profile
+                           clientele projects. Offering strong critical thinking skills, diligent nature and 3+ years of related experience. <br>
+                    </p>
+                    <div class="pg-title">Skills</div>
+                    <p>
+                    <ul class="skill-set">
+                        <li>Python Programming</li>
+                        <li>R Programming, RStudio</li>
+                        <li>Jupyter Notebook</li>
+                        <li>Tableau</li>
+                        <li>Excel, VBA Macros</li>
+                        <li>Data Visualization</li>
+                        <li>Team and Client Relations</li>
+                        <li>Dashboard Development</li>
+                        <li>Problem-Solving</li>
+                        <li>Flexibility and Adaptability</li>
+                        <li>Stakeholder & Client Presentation</li>
+                        <li>Policies</li>
+                        <li>Data Science Lifecycle</li>
+                        <li>Data Acquisition</li>
+                    </ul>
+                </p>
+                    <div class="pg-title">Accomplishments</div>
+                    <p>
+                    <ul class="accomplishments-list">
+                        <li>Volunteering member of <strong>Statistics Without Borders.</strong></li>
+                        <li>
+                            <strong>Honorable Mention award recipient</strong> at the American Statistical Association AL-MS 2025 Annual Conference poster competition for Resale Revolution capstone presentation.
+                            <u><a href="#Capstone" onclick="showSection('Portfolio')">View project</a></u>
+                        </li>
+                        <li>
+                            Former <strong>Vice President</strong> and founding member of the Data Science Ambassador Program.
+                        </li>
+                        <li><strong>Founding member</strong> of the Data Science Club.</li>
+                        <li>
+                            <strong>Research publication</strong> presented at the Computational Sciences and Computational Intelligence Conference, 2023. 
+                            <u><a href="#SCproject" onclick="showSection('Portfolio')">View project</a></u>
+                        </li>
+                        <li>
+                            <strong>Honorable Mention award recipient</strong> at MAS 2023 Research Symposium for USDA Aflatoxin research presentation. 
+                            <u><a href="#Spotifyproject" onclick="showSection('Portfolio')">View project</a></u>
+                        </li>
+                    </ul>
+                </p>
+                </div>
+                <div class="section1 p-30" id="WorkProfile" style="display:none;">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Work Profile</div>
+                        <div class="pg-title t-center">AI Engineer</div>
+                    </div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Camgian <br> Huntsville, AL</span>
+                            <span class="alignright sm-text">02/26 - Present</span>
+                        </div>
+                        - Integrating improvements for forecasting model architecture and the generation of training data. <br>
+                        - Testing prioritization and tracking system improvements over industry-standard simulated products. <br>
+                    </p>
+                    <div class="pg-title t-center">Data Scientist</div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Camgian <br> Huntsville, AL</span>
+                            <span class="alignright sm-text">06/25 - 02/26</span>
+                        </div>
+                        - Continued to enhance “Data-to-Decision” pipeline products for commercial customers and dynamically implement machine learning models. <br>
+                        - Faced challenges of limited usable data availability and client communications while delivering advanced methodology pipelines. <br>
+                        - Presented product demonstration to stakeholders and clients, communicating the marketplace value at different volumes and depths. <br>
+                    </p>
+                    <div class="pg-title t-center">Data Science Intern</div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Camgian <br> Starkville, MS</span>
+                            <span class="alignright sm-text">02/25 - 06/25</span>
+                        </div>
+                        - Enhanced “Data-to-Decision” pipeline products for commercial customers. <br>
+                        - Dynamically implemented machine learning models for product scalability. <br>
+                    </p>
+                    <hr>
+                    <div class="pg-title t-center">Data Science Undergraduate Researcher</div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Mississippi State University <br> Starkville, MS</span>
+                            <span class="alignright sm-text">01/24 - 02/25</span>
+                        </div>
+                        - Conducted statistical and programmatic investigative inquires through a wide range of projects <br>
+                        - Projects range from conducting a trend analysis on Northern Hemispheric snow presence  
+                        to streamlining the MS Supreme Court Drug Intervention monthly data reporting process.
+                    </p>
+                    <hr>
+                    <div class="pg-title t-center">Marketing Assistant</div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Capstone Real Estate Investments <br> Starkville, MS</span>
+                            <span class="alignright sm-text">01/23 - 12/23</span>
+                        </div>
+                        - Resolved different varieties of issues that arose with residents, from package delivery
+                        to terms and compliance of their lease <br>
+                        - Cross-coordinated with management and maintenance for the renovation process of the property <br>
+                        - Aided a range of clients find a space they call home <br>
+                    </p>
+                    <hr>
+                    <div class="pg-title t-center">USDA Aflatoxin Research Internship</div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Mississippi State University <br> Starkville, MS</span>
+                            <span class="alignright sm-text">05/23 - 08/23</span>
+                        </div>
+                        - Thorough data analysis conducted from USDA cropping data, curated a fully accessible
+                        dashboard presenting geospatial mapping with Python visualization packages.<br>
+                    </p>
+                    <hr>
+                </div>
+                <div class="section1 p-30" id="Portfolio" style="display:none;">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Portfolio</div>
+                    </div>
+                    <div id="Capstone">
+                        <div class="pg-title t-center">Resale Revolution: Trend Implications from Media Presence Transcended to Luxury Retail Markets</div>
+                        <div class = "nunito-sans-prog p-5">Programming language : Python and R </div>
+                        <div style="display: flex; justify-content: center;">
+                            <img height="800" width="400" src="assets/images/prodreporttitle.png" style="margin: auto;">
+                        </div>
+                        <div class="sm-text p-5">Abstract</div>
+                        This study aims to deepen understanding of fashion trend decline from peak popularity to obsolescence, with implications for sustainability and producer profit margins. It investigates how the attributes and 
+                        media presence of fashion items influence their journey from high-end editorial coverage to resale platforms. Using survival analysis to model trend lifetimes and cosine similarity metrics to compare resale and
+                        magazine keyword frequencies, alongside machine learning for price prediction, the study uncovers critical temporal patterns. Results show that resale trends reflect magazine content with a lag of approximately 
+                        18 to 30 months and draw from long-wave revivals spanning 6 to 14 years, rather than reacting only to recent cycles. These findings suggest producers should monitor editorial patterns and expect garments to fade
+                        from popularity roughly two to six years after their peak media exposure. <br>
+                        <br>
+                        During the development of the final dataset and results, an interim presentation was given at the American Statistical Association AL-MS Chapter Annual Conference held at Mississippi State University. I received a
+                        second place award for the poster presentation section. 
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7311428362348941313/" target="_blank">See more.</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+
+                        <div class="sm-text p-10">Project Repository Upload and Final Product Report</div>
+                        Prochnow, Penelope, "Resale Revolution: Trend Implications from Media Presence Transcended to Luxury Retail Markets" (2025). Capstone Projects. 1.
+                        
+                        <a href="https://scholarsjunction.msstate.edu/data-capstone/1" target="_blank">https://scholarsjunction.msstate.edu/data-capstone/1</a>  <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+
+                        <a href="https://issuu.com/penelopesreports/docs/penelope_s_fashion_producer_report" target="_blank">Producer Report Deliverable</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+
+                        <ul class="skill-set">
+                            <li>Data Science Lifecycle</li>
+                            <li>Statistical Modeling</li>
+                            <li>Data Acquisition and Feature Engineering</li>
+                            <li>Natural Language Processing</li>
+                            <li>Survival Analysis</li>
+                            <li>Cosine Similarity</li>
+                            <li>Price Prediction</li>
+                        </ul>
+                    </div>
+                    <hr>
+                        <div class="pg-title t-center">Trend Analysis of Northern Hemispheric Snow Presence</div>
+                    <div class = "nunito-sans-prog p-5">Programming language : Python and R </div> <br>
+
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1200" width="600" src="assets/images/snowWrld.gif" style="margin: auto;">
+                    </div>
+                    
+                    <div class="sm-text p-10">Summary</div>
+                    Building on a previous trend analysis study of northern hemispheric snow presence, this project leverages
+                    a higher resolution dataset while applying the original statistical methods. <br>
+                    The project involves manipulating and preprocessing a large dataset of 24km resolution grid data from a netCDF file to study changes in
+                    snow cover from 1980 to 2023. The statistical methods from the original study were applied to the new dataset leading to more accurate results. <br>
+                    <div class="sm-text p-10">Products and Resources</div>
+                    
+                    A preliminary visualization of the land points from the dataset: 
+                    <a href="snowDecwLand.html" target="_blank">Interactive Global Plot</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                    <br>
+                    Publication: <br> Woody, J., Prochnow, P., Kong, J., & Dyer, J. (2026). Regional Analysis of Snow Presence Trends in the Northern Hemisphere. Journal of Hydrometeorology, 27(3), 417-436. https://doi.org/10.1175/JHM-D-25-0061.1
+
+                    <ul class="skill-set">
+                        <li>Statistical Methods; two-state Markov Chain model</li>
+                        <li>Large Data Management & Processing</li>
+                        <li>Time Series</li>
+                    </ul>
+                    
+                    <hr>
+                    <div id="SCproject">
+                        <div class="pg-title t-center">Streamline Reporting Requirement for State Agency</div>
+                        <div class = "nunito-sans-prog p-5">Programming language : Visual Basic Application (VBA) and Python </div>
+                        <div class="sm-text p-5">Summary</div>
+                        This project transformed the outdated Mississippi Supreme Court reporting process for the Drug, Mental Health, and Juvenile Intervention courts from manual labor 
+                        intensive transferring of data to a simplistic push of a button process. The entirety of the process originally demanded manual transferring
+                        of data through five different Excel workbooks. After the completed rework of the VBA Macros, the user was able to 
+                        utilize a set-up page to enter the number of courts and reporting year. Then, press a button and watch as the data is dynamically
+                        transferred through the five workbooks, resulting in a ready-to-print dashboard for each reporting statistic. <br>
+                        A second part to this project will involve the creation of a revised thorough Python dashboard bundled in an executable that will
+                        increase the longevity and usability of the reporting process for informed decision making and optimized operations within the Intervention court programs.
+                        This project supports the Mississippi Supreme Court five year strategic intervention court reporting process. 
+                        <ul class="skill-set">
+                            <li>Client Relations</li>
+                            <li>Financial State Agency Reporting Dashboards</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+                    
+                    <hr>
+                    <div class="pg-title t-center">The Reverse-Transition Weighting Filter for Edge Detection for Noisy Color Images</div>
+                    <div class = "nunito-sans-prog p-5">Programming language : Matlab </div>
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1200" width="600" src="assets/images/RTWcomp.png" style="margin: auto;">
+                    </div>
+                    <div class="sm-text p-5">Summary</div>
+                    As part of an edge detection project for an Introduction to Modern Scientific Computing course, I developed an edge detection algorithm without relying 
+                    on any built-in packages. Through the application of advanced mathematical matrix operations, the Gaussian Edge Detection method was significantly enhanced. <br>
+                    Due to the challenges posed by noisy and color images, the first two steps of the Canny algorithm (noise removal and gradient calculation) were modified to 
+                    incorporate our Reverse-Transition Weighting Filter and a Structure Tensor Method. <br>
+                    <br>
+                    This work culminated in a publication and a conference presentation at the American Council on Science & Education. The project was recognized by the globally recognized publisher De Gruyter Brill and is featured in the book series 
+                    "Intelligent Computing," under the title "Imaging Science: Computer Vision, Image and Signal Processing, Pattern Recognition". <br>
+
+                    <div class="sm-text p-10">Products</div>
+                    Publication: <br> S. T. Richey et al., "The Reverse-Transition Weighting Filter for Effective Edge Detection for Noisy Color Images," 2023 International Conference on Computational Science and Computational Intelligence (CSCI),
+                    Las Vegas, NV, USA, 2023, pp. 1160-1166, doi: 10.1109/CSCI62032.2023.00190. <a href="assets/documents/Edge-Detection-RTW-Color.pdf" target="_blank">PDF</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                    <br>
+                    Derivative Publication: <br> Shin, J., Hand, L., Prochnow, P., Richey, S., Burton, O., Perdue, J. & Kim, S. (2025). Chapter 2 Denoising and gradient fusion for effective edge detection for noisy color images. In L. Deligiannidis, G. Dimitoglou & H. Arabnia (Ed.), Imaging Science: Computer Vision, Image and Signal Processing, Pattern Recognition (pp. 17-38). Berlin, Boston: De Gruyter. https://doi.org/10.1515/9783111436425-002
+                    
+                    <ul class="skill-set">
+                        <li>Logical Mathematical Computing Aspects</li>
+                        <li>Enhancing Traditional Methods</li>
+                        <li>Correcting Mathematical Issues in Scientific Computing</li>
+                    </ul>
+                    <hr>
+                    <div class="pg-title t-center">Text Extraction from Images, PDF Files, and Speech Data</div>
+                    <div class = "nunito-sans-prog p-5">Programming language : Python</div>
+                    <div class="sm-text p-5">Summary</div>
+                    Widely adapted PDF interpreters lack the ability to properly and cohesively transform PDF files containing images with overlaid text to a plain text file. In this project
+                    a PDF file interpreter was created with the goal to enhance OCR methods to appropriately work line by line through a PDF file contain images. In a second part of this project,
+                    a speech to text file interpreter was created. Additional information to the methods used with limitations is included in the project write-up below. <br>
+                    <div class="sm-text p-10">Products</div>
+                    Report detailing the methods and limitations: <a href="assets/documents/Prochnow_Text Extraction from Images.pdf" target="_blank">PDF</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                    Source code accessible through GitHub link in header.
+                    <ul class="skill-set">
+                        <li>Logical Computing of real-world problems</li>
+                        <li>Computational Algorithms</li>
+                    </ul>
+
+                    <hr>
+                    <div id="Spotifyproject">
+                        <div class="pg-title t-center">Top 2000 Spotify Songs: Visualization and Analysis</div>
+                        <div class = "nunito-sans-prog p-5">Programming language : Tableau, Python for pre-processing</div>
+                        <div class="sm-text p-5">Summary</div>
+                        As a result of the final presentation for a Data Visualization course, my team and I utilized an open-source Spotify dataset from Kaggle to create
+                        an interactive Tableau dashboard. This Tableau dashboard required pre-processing mathematical computations and cleaning of the dataset through Python. 
+                        <div class="sm-text p-10">Products and Resources</div>
+                        Final visualization and analysis report including methods: <a href="assets/documents/SpotifyFinalAnalysis.pdf" target="_blank">PDF</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                        View the visualization: <a href="https://public.tableau.com/app/profile/penelope.prochnow/vizzes" target="_blank">Tableau Public Dashboard</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                        <ul class="skill-set">
+                            <li>Cohesive Visualization Dashboards</li>
+                            <li>Data Manipulation</li>
+                            <li>Data Processing</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="pg-title t-center">Geospatial Analysis: Dispersal of Aspergillus Flavus AF36 Strain in Tree Nut Cropping Systems</div>
+                    <div class = "nunito-sans-prog p-5">Programming language : Python </div>
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1000" width="400" src="assets/images/PosterPic.png" style="margin: auto;">
+                        <img height="1000" width="400" src="assets/images/PosterAward.png" style="margin: auto;">
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1200" width="800" src="assets/images/firstSlide.png" style="margin: auto;">    
+                    </div>
+                    <div class="sm-text p-5">Summary</div>
+                    In my first internship, I was tasked with creating a geospatial analysis of the aflatoxin levels and associated treatments in local Arizona crops for the USDA. The resulting
+                    choropleth maps and exploratory analysis plots were formulated into interactive features with the Dash python package, refined through .html scripts and deployed with Render.com. 
+                    At the conclusion of my internship, I entered the Mississippi Academy of Sciences Summer Science and Engineering Symposium. I was a recipient of the Honor Mention in the poster
+                    presentation section. <br>
+                    <ul class="skill-set">
+                        <li>Cohesive Visualization Dashboards</li>
+                        <li>Exploratory Data Analysis</li>
+                        <li>Data Processing</li>
+                    </ul>
+
+                    
+                    
+                </div>
+                <div class="section1 p-30" id="Education" style="display:none;">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Education</div>
+                        <div class="vl p-15">
+                            <div class="sm-text p-10">Mississippi State University</div>
+                            <p class = "p-left20">
+                                Bachelors of Science in Data Science <br>
+                                Class of 2025 <br>
+                                Statistical Modeling Concentration <br>
+                                Minor in Computer Science <br>
+                                Summa Cum Laude <br>
+                                2x Dean's List, 6x Principal's List <br>
+                            </p>
+                            <div class="sm-text p-10">Ocean Springs High School</div>
+                            <p class = "p-left20">
+                                High Honors <br>
+                                AP Capstone Candidate <br>
+                                Class of 2021 <br>
+                                Graduated top 4% of High School class, 4.96 Weighted GPA <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>
+     <div id="footer"></div>
+    <script>
+    function showSection(sectionId) {
+    document.querySelectorAll('.main-content > .section1').forEach(function(section) {
+        section.style.display = 'none';
+    });
+    document.getElementById(sectionId).style.display = 'block';
+ 
+    }
+    var nav = document.getElementsByClassName('nav')[0];
+    var toggle = document.getElementsByClassName('toggle')[0];
+    window.onload=function(){    
+        toggle.onclick=function(){
+            nav.classList.toggle('opened');
+            
+        }
+        
+    }
+    document.getElementById("toggleMenu").addEventListener("click", function() {
+    const icon = document.getElementById("icon");
+    icon.classList.toggle("rotate-180");
+    });
+
+
+
+    </script>
+    </body>
+</html>
