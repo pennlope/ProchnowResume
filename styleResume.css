@@ -313,6 +313,10 @@ a:hover {
     display: inline;
     flex-direction: column;
 }
+.hanging-indent {
+    padding-left: 36px;
+    text-indent: -36px;
+  }  
 
 .skill-set li
 {
